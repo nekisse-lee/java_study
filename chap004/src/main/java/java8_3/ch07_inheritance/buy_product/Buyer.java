@@ -4,7 +4,7 @@ public class Buyer {
     int money = 1000;
     int bonusPoint = 0;
 
-    int count = 0;
+    int i = 0;
     Product[] cart = new Product[10];
 
     void buy(Product product) {
@@ -13,8 +13,8 @@ public class Buyer {
             return;
         }
         money -= product.getPrice();
-        bonusPoint += product.getBnusPoint();
-        cart[count++] = product;
+        bonusPoint += product.getBonusPoint();
+        cart[i++]= product;
     }
 
 }
