@@ -1,4 +1,4 @@
-package java8_3.chap09_java_lang;
+package java8_3.chap09_.lang;
 
 public class Clone_Point implements Cloneable {
     int x;
