@@ -1,4 +1,4 @@
-package thisisjava.chap11.Object;
+package thisisjava.chap11.exam01_eqals;
 
 public class MemberExample {
     public static void main(String[] args) {

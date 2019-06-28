@@ -1,4 +1,4 @@
-package thisisjava.chap11.Object;
+package thisisjava.chap11.exam01_eqals;
 
 import java.util.Objects;
 
@@ -26,7 +26,7 @@ public class Member {
         return Objects.hash(id);
     }
     //    @Override
-//    public boolean equals(Object obj) {
+//    public boolean equals(exam01_eqals obj) {
 //        if (obj instanceof Member) {
 //            Member member = (Member) obj;
 //            if (id.equals(member.id)) {
