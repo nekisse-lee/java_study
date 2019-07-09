@@ -29,6 +29,6 @@ public class Ex05_11 {
         System.out.println("charAA = " + charAA);
         System.out.println("intA = " + intA);
         System.out.println("charA = " + charA);
-
+//test
     }
 }
