@@ -28,7 +28,6 @@ public class OperatorExample {
         System.out.println("최대값: " + max);
 
         //최소값
-
         int min = maxOrmin((a, b) -> {
 
             if (a<= b) {
