@@ -8,11 +8,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="chap004" />
+        <module name="java8_Stream" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
       <module name="chap003" target="8" />
       <module name="chap004" target="8" />
+      <module name="java8_Stream" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
