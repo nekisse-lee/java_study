@@ -5,7 +5,7 @@ import java.util.concurrent.TimeUnit;
 import java.util.stream.IntStream;
 
 @SuppressWarnings("ALL")
-public class StreamExample5Parallel {
+public class StreamExamples5Parallel {
     public static void main(String[] args) {
 
         int[] sum = {0};
