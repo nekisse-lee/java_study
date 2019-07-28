@@ -51,11 +51,11 @@ public class StreamExamples4 {
 
         System.out.println("\n========================================");
         System.out.println("Total Price of Products.price >= 30: " +
-            products.stream()
-                .filter(product -> product.getPrice().compareTo(new BigDecimal("30")) > 0)
-                .map(product -> product.getPrice())
+                products.stream()
+                    .filter(product -> product.getPrice().compareTo(new BigDecimal("30")) > 0)
+                    .map(product -> product.getPrice())
 //                .reduce(BigDecimal.ZERO, (price1, price2) -> price1.add(price2))
-                .reduce(BigDecimal.ZERO, BigDecimal::add)
+                    .reduce(BigDecimal.ZERO, BigDecimal::add)
 
         );
 
