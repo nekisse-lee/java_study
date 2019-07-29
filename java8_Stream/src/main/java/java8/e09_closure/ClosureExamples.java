@@ -74,6 +74,27 @@ public class ClosureExamples {
 
     }
 
+    private void test4() {
+        int number = 100;
+
+        testClosure("Anonymous Class", new Runnable() {
+            @Override
+            public void run() {
+                int number = 50;   //no compile time -  error
+                System.out.println(number);
+
+            }
+        });
+
+        testClosure("Lambda Expression", () -> {
+//            int number = 50;      //compile-time error
+
+            System.out.println(number);
+        });
+
+    }
+
+
     private static void testClosure(String name, Runnable runnable) {
         System.out.println("==========================");
         System.out.println(name + ": ");
