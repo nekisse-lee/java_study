@@ -10,7 +10,6 @@ public class ClosureExamples {
 //        new ClosureExamples().test2();
         new ClosureExamples().test3();
 
-
     }
 
     public <T> String toString(int number, T value) {
