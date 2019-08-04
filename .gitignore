@@ -30,50 +30,50 @@
 .idea/**/libraries
 
 # Gradle and Maven with auto-import
-# 자동 가져 오기 기능이있는 Gradle 또는 Maven을 사용하는 경우 모듈 파일,
-# 왜냐하면 그것들은 재현 될 것이고 휘젓기를 일으킬 수 있기 때문이다. 사용하는 경우 주석 처리 해제
-# 자동 가져 오기.
-# .idea / modules.xml
-# .idea / *. iml
-# .idea / modules
-# * .iml
-# * .ipr
+# When using Gradle or Maven with auto-import, you should exclude module files,
+# since they will be recreated, and may cause churn.  Uncomment if using
+# auto-import.
+# .idea/modules.xml
+# .idea/*.iml
+# .idea/modules
+# *.iml
+# *.ipr
 
 # CMake
-cmake-build - * /
+cmake-build-*/
 
-# Mongo Explorer 플러그인
-.idea / ** / mongoSettings.xml
+# Mongo Explorer plugin
+.idea/**/mongoSettings.xml
 
-# 파일 기반 프로젝트 형식
-* .iws
+# File-based project format
+*.iws
 
 # IntelliJ
-아웃/
+out/
 
-# mpeltonen / sbt-idea Plugin
-.idea_modules /
+# mpeltonen/sbt-idea plugin
+.idea_modules/
 
-# JIRA 플러그인
+# JIRA plugin
 atlassian-ide-plugin.xml
 
-# Cursive Clojure 플러그인
-.idea / replstate.xml
+# Cursive Clojure plugin
+.idea/replstate.xml
 
-# Crashlytics 플러그인 (Android Studio 및 IntelliJ 용)
+# Crashlytics plugin (for Android Studio and IntelliJ)
 com_crashlytics_export_strings.xml
 crashlytics.properties
 crashlytics-build.properties
 fabric.properties
 
-# 편집자 기반 휴식 클라이언트
-.idea / httpRequests
+# Editor-based Rest Client
+.idea/httpRequests
 
-# Android 스튜디오 3.1 이상 직렬 파일
-.idea / caches / build_file_checksums.ser
+# Android studio 3.1+ serialized cache file
+.idea/caches/build_file_checksums.ser
 
-### Intellij + all Patch ###
-# 전체 .idea 폴더와 모든 .iml 파일을 무시합니다.
+### Intellij+all Patch ###
+# Ignores the whole .idea folder and all .iml files
 # See https://github.com/joeblau/gitignore.io/issues/186 and https://github.com/joeblau/gitignore.io/issues/360
 
 .idea/
